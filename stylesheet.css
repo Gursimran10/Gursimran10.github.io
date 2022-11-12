@@ -1,0 +1,83 @@
+body   { background-color:white;
+  
+
+   }
+.div2 {
+  background-color:rgb(176, 237, 176);
+  width:980px; 
+  margin-left:auto; 
+  margin-right:auto;
+  padding: 20px;
+  border: 5px solid rgb(44, 148, 23);
+  
+
+  }
+  .h1{
+    text-align: center;
+    color: rgb(44, 148, 23);
+    
+  }
+ 
+  .col-25 {
+    float: left;
+    width: 25%;
+    height:25%;
+    margin-top: 6px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+    
+  }
+  .col-75 {
+    float: left;
+    width: 75%;
+    height: 25%;
+    margin-top: 6px;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75,.col-1 input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+     
+
+    }
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    
+  }
+  .col-1 {
+    float: right;
+    width: 30%;
+    height: 5%;
+    
+    
+  }
+  .h4
+  {
+background-color:rgb(44, 148, 23);
+color: white;
+
+  }
+  .p1{
+    text-align: center;
+  }
+  
+  
+ 
